@@ -5301,7 +5301,7 @@ function information_gathering
 				echo -e "Enter the domain you want to scan: "
 				read DOMAIN
 				clear
-				sniper $DOMAIN
+				sniper --recon --osint -t $DOMAIN
 			else
 				echo -e "$TNI"
 				read INSTALL
